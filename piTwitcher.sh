@@ -6,8 +6,8 @@ CONFIGURE_CAMERA="configure_camera.sh"
   source configure_led.sh
   source configure_camera.sh
   setLightState $ONAIR_LED $OFF
-
-I=0
+  I=0
+  
 while true
 do
 
