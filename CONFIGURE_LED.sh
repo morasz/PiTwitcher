@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Setting up an ONAIR_LED
   # Common path for all GPIO access
   BASE_GPIO_PATH=/sys/class/gpio
