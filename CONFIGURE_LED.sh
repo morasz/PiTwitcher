@@ -28,3 +28,8 @@
   setLightState(){
     echo $2 > $BASE_GPIO_PATH/gpio$1/value
   }
+
+# Export pin so that we can use it
+    exportPin $ONAIR_LED
+  # Set pins as outputs
+    setOutput $ONAIR_LED
